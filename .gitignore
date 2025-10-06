@@ -1,0 +1,41 @@
+# ------------------------------------------------------------------
+# Python-specific files
+# ------------------------------------------------------------------
+
+# Compiled Python files
+__pycache__
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual Environments
+venv
+env/
+.venv/
+.conda/
+.direnv/
+
+# Package management
+# Ignore installed packages (for projects using pip/requirements.txt)
+# If using Poetry/Pipenv, you might want to adjust
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+
+# Jupyter/Data Science Files
+.ipynb_checkpoints
+
+# ------------------------------------------------------------------
+# IDE/OS files
+# ------------------------------------------------------------------
+# IDEs
+.idea/
+*.iml
+.vscode
+
+# OS/System files
+.DS_Store
+Thumbs.db
